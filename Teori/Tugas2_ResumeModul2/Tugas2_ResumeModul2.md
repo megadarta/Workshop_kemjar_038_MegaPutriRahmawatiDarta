@@ -81,14 +81,10 @@ Cara untuk mengurangi resiko serangan siber :
 > Memastikan bahwa penyedia jaringan dapat memberikan bantuan ketika ada
 > serangan keamanan.
 
-![](Image_ResumeModul2/media/image1.png){width="6.5in"
-height="8.034722222222221in"}
+![](Image_ResumeModul2/media/image1.png)
 
-![](Image_ResumeModul2/media/image2.png){width="6.5in"
-height="8.363888888888889in"}
+![](Image_ResumeModul2/media/image2.png)
 
-![](Image_ResumeModul2/media/image3.png){width="6.5in"
-height="8.930555555555555in"}
+![](Image_ResumeModul2/media/image3.png)
 
-![](Image_ResumeModul2/media/image4.png){width="6.5in"
-height="5.545833333333333in"}
+![](Image_ResumeModul2/media/image4.png)
