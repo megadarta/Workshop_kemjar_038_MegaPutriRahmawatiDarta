@@ -1,6 +1,6 @@
 ﻿**KEAMANAN JARINGAN OWASP A06 – Vulnerable Component** 
 
-![](image/Aspose.Words.8b7306d8-351f-4811-a047-d2bec80179e2.001.png)
+![](image/Aspose.Words.589cef93-d100-4205-8bd1-a832f6398156.001.png)
 
 OLEH : 
 
@@ -24,36 +24,36 @@ Untuk contoh serangan vulnerable component dapat dilakukan Legacy Typosquatting 
 
 1. tambahkan /ftp pada path juiceshop yang didalamnya berisikan beberapa file dan folder 
 
-![](image/Aspose.Words.8b7306d8-351f-4811-a047-d2bec80179e2.002.png)
+![](image/Aspose.Words.589cef93-d100-4205-8bd1-a832f6398156.002.png)
 
 2. buka file package.json.bak 
 
-![](image/Aspose.Words.8b7306d8-351f-4811-a047-d2bec80179e2.003.jpeg)
+![](image/Aspose.Words.589cef93-d100-4205-8bd1-a832f6398156.003.jpeg)
 
 3. Tambahkan %2500.md pada path url agar file dapat diakses 
 
-![](image/Aspose.Words.8b7306d8-351f-4811-a047-d2bec80179e2.004.png)
+![](image/Aspose.Words.589cef93-d100-4205-8bd1-a832f6398156.004.png)
 
 4. Buka hasil file yang telah didownload 
 
-![](image/Aspose.Words.8b7306d8-351f-4811-a047-d2bec80179e2.005.png)
+![](image/Aspose.Words.589cef93-d100-4205-8bd1-a832f6398156.005.png)
 
 5. Cari pada bagian “dependencies” 
 
-![](image/Aspose.Words.8b7306d8-351f-4811-a047-d2bec80179e2.006.png)
+![](image/Aspose.Words.589cef93-d100-4205-8bd1-a832f6398156.006.png)
 
 6. Buka npmjs untuk melakukan pengecekan pada tiap dependencies apakah terdapat dependencies yang mencurikagan 
 
-![](image/Aspose.Words.8b7306d8-351f-4811-a047-d2bec80179e2.007.jpeg)
+![](image/Aspose.Words.589cef93-d100-4205-8bd1-a832f6398156.007.jpeg)
 
 7. Disini saya menemukan terdapat dependencies yang mencurigakan yaitu epilogue-js yang dapat dilihat dari isi konten deskripsi pada website npmjs 
 
-![](image/Aspose.Words.8b7306d8-351f-4811-a047-d2bec80179e2.008.png)
+![](image/Aspose.Words.589cef93-d100-4205-8bd1-a832f6398156.008.png)
 
 Terdapat pesan bahwa library ini bukan library yang ingin dicari dan library ini hanya dibuatuntuk tujuan demonstrasi typosquatting. 
 
 8. Coba masukkan nama dependencies yang mencurigakan tersebut kedalam feedbackjuiceshop 
 
-![](image/Aspose.Words.8b7306d8-351f-4811-a047-d2bec80179e2.009.png)
+![](image/Aspose.Words.589cef93-d100-4205-8bd1-a832f6398156.009.png)
 
 Dan hasilnya percobaan demonstrasi typosquatting telah selesai 
